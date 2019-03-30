@@ -1,9 +1,9 @@
 import React from "react";
 import "./memoryCard.css";
 
-const memoryCard = props => (
+const MemoryCard = props => (
     <div
-    className= "card"
+    className= "cards"
     value= {props.id}
     onClick= {() => props.handleClick(props.id)}
     >
@@ -13,4 +13,4 @@ const memoryCard = props => (
     </div>
 );
 
-export default memoryCard
+export default MemoryCard

@@ -1,0 +1,74 @@
+[
+    {
+      "id": 1,
+      "image": "https://github.com/welljer/iForgotToRemember/blob/master/images/Bartz.jpg",
+      "name": "Bartz",
+      "clicked": false
+    },
+    {
+      "id": 2,
+      "image": "https://github.com/welljer/iForgotToRemember/blob/master/images/Terra.jpg",
+      "name": "Terra",
+      "clicked": false
+    },
+    {
+      "id": 3,
+      "image": "https://github.com/welljer/iForgotToRemember/blob/master/images/VAAN.jpg",
+      "name": "Vaan",
+      "clicked": false
+    },
+    {
+      "id": 4,
+      "image": "https://github.com/welljer/iForgotToRemember/blob/master/images/cecil.jpg",
+      "name": "Cecil",
+      "clicked": false
+    },
+    {
+      "id": 5,
+      "image": "https://github.com/welljer/iForgotToRemember/blob/master/images/cloud.jpg",
+      "name": "Cloud",
+      "clicked": false
+    },
+    {
+      "id": 6,
+      "image": "https://github.com/welljer/iForgotToRemember/blob/master/images/ingus.jpg",
+      "name": "Ingus",
+      "clicked": false
+    },
+    {
+      "id": 7,
+      "image": "https://github.com/welljer/iForgotToRemember/blob/master/images/lightning.jpg",
+      "name": "Lightning",
+      "clicked": false
+    },
+    {
+      "id": 8,
+      "image": "https://github.com/welljer/iForgotToRemember/blob/master/images/locke.jpg",
+      "name": "Locke",
+      "clicked": false
+    },
+    {
+      "id": 9,
+      "image": "https://github.com/welljer/iForgotToRemember/blob/master/images/noctis.jpg",
+      "name": "Noctis",
+      "clicked": false
+    },
+    {
+      "id": 10,
+      "image": "https://github.com/welljer/iForgotToRemember/blob/master/images/squall.jpg",
+      "name": "Squall",
+      "clicked": false
+    },
+    {
+      "id": 11,
+      "image": "https://github.com/welljer/iForgotToRemember/blob/master/images/tidus.jpg",
+      "name": "Tidus",
+      "clicked": false
+    },
+    {
+      "id": 12,
+      "image": "https://github.com/welljer/iForgotToRemember/blob/master/images/zidane.jpg",
+      "name": "Zidane",
+      "clicked": false
+    }
+  ]
