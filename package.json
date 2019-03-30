@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://welljer.github.io/iForgotToRemember/",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
     "react-scripts": "2.1.8"
