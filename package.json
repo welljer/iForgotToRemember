@@ -2,7 +2,7 @@
   "name": "iforgottoremember",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://welljer.github.io/iForgotToRemember/",
+  "homepage": "https://welljer.github.io/iForgotToRemember",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.5",
