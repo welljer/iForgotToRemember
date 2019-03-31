@@ -6,7 +6,7 @@
 .pnp.js
 serviceWorker.js
 logo.svg
-App.test.js
+../src/test
 
 # testing
 /coverage

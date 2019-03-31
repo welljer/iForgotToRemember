@@ -6,18 +6,19 @@ import Title from "./components/title";
 import Container from "./bootstrap/Container";
 import Row from "./bootstrap/Row";
 import Column from "./bootstrap/Column";
-import cards from "../src/cards.json";
-import '../src/App.css';
+import './App.css';
+import cards from "./cards.json"
 
 
 // how the cards shift
-function shuffleCards(array) {
+var ShuffleCards = array => {
   for(let i = array.length -1; i > 0; i--){
     let j = Math.floor(Math.random() * (i + 1));
     [array[i], array[j]] = [array[j], array[i]];
   }
-  return array;
 };
+
+// ShuffleCards();
 
 class App extends Component {
 
@@ -67,7 +68,7 @@ class App extends Component {
   }
 
   handleShuffle = () => {
-      let shuffleCards = shuffleCards(cards);
+      let shuffleCards = ShuffleCards(cards);
       this.setState({ cards: shuffleCards});
     };
 
@@ -87,15 +88,15 @@ class App extends Component {
           
           <Container>
             <Row>
-              {this.state.cards.map(card => (
+              {this.state.cards.map(cards => (
                 <Column size= "md-3 sm-6">
                   <MemoryCard
-                    key= {card.id}
+                    key= {cards.id}
                     handleClick= {this.handleClick}
                     handleIncrement= {this.handleIncrement}
                     handleReset= {this.handleReset}
-                    id= {card.id}
-                    image= {card.image}
+                    id= {cards.id}
+                    image= {cards.image}
                   />
                 </Column>
               ))}
