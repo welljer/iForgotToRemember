@@ -1,73 +1,73 @@
 [
     {
       "id": 1,
-      "image": "https://github.com/welljer/iForgotToRemember/blob/master/images/Bartz.jpg",
+      "image": "https://github.com/welljer/iForgotToRemember/blob/master/src/components/images/Bartz.jpg?raw=true",
       "name": "Bartz",
       "clicked": false
     },
     {
       "id": 2,
-      "image": "https://github.com/welljer/iForgotToRemember/blob/master/images/Terra.jpg",
+      "image": "https://github.com/welljer/iForgotToRemember/blob/master/src/components/images/Terra.jpg?raw=true",
       "name": "Terra",
       "clicked": false
     },
     {
       "id": 3,
-      "image": "https://github.com/welljer/iForgotToRemember/blob/master/images/VAAN.jpg",
+      "image": "https://github.com/welljer/iForgotToRemember/blob/master/src/components/images/VAAN.jpg?raw=true",
       "name": "Vaan",
       "clicked": false
     },
     {
       "id": 4,
-      "image": "https://github.com/welljer/iForgotToRemember/blob/master/images/cecil.jpg",
+      "image": "https://github.com/welljer/iForgotToRemember/blob/master/src/components/images/cecil.jpg?raw=true",
       "name": "Cecil",
       "clicked": false
     },
     {
       "id": 5,
-      "image": "https://github.com/welljer/iForgotToRemember/blob/master/images/cloud.jpg",
+      "image": "https://github.com/welljer/iForgotToRemember/blob/master/src/components/images/cloud.jpg?raw=true",
       "name": "Cloud",
       "clicked": false
     },
     {
       "id": 6,
-      "image": "https://github.com/welljer/iForgotToRemember/blob/master/images/ingus.jpg",
+      "image": "https://github.com/welljer/iForgotToRemember/blob/master/src/components/images/ingus.jpg?raw=true",
       "name": "Ingus",
       "clicked": false
     },
     {
       "id": 7,
-      "image": "https://github.com/welljer/iForgotToRemember/blob/master/images/lightning.jpg",
+      "image": "https://github.com/welljer/iForgotToRemember/blob/master/src/components/images/lightning.jpg?raw=true",
       "name": "Lightning",
       "clicked": false
     },
     {
       "id": 8,
-      "image": "https://github.com/welljer/iForgotToRemember/blob/master/images/locke.jpg",
+      "image": "https://github.com/welljer/iForgotToRemember/blob/master/src/components/images/locke.jpg?raw=true",
       "name": "Locke",
       "clicked": false
     },
     {
       "id": 9,
-      "image": "https://github.com/welljer/iForgotToRemember/blob/master/images/noctis.jpg",
+      "image": "https://github.com/welljer/iForgotToRemember/blob/master/src/components/images/noctis.jpg?raw=true",
       "name": "Noctis",
       "clicked": false
     },
     {
       "id": 10,
-      "image": "https://github.com/welljer/iForgotToRemember/blob/master/images/squall.jpg",
+      "image": "https://github.com/welljer/iForgotToRemember/blob/master/src/components/images/squall.jpg?raw=true",
       "name": "Squall",
       "clicked": false
     },
     {
       "id": 11,
-      "image": "https://github.com/welljer/iForgotToRemember/blob/master/images/tidus.jpg",
+      "image": "https://github.com/welljer/iForgotToRemember/blob/master/src/components/images/tidus.jpg?raw=true",
       "name": "Tidus",
       "clicked": false
     },
     {
       "id": 12,
-      "image": "https://github.com/welljer/iForgotToRemember/blob/master/images/zidane.jpg",
+      "image": "https://github.com/welljer/iForgotToRemember/blob/master/src/components/images/zidane.jpg?raw=true",
       "name": "Zidane",
       "clicked": false
     }

@@ -73,10 +73,11 @@ class App extends Component {
     };
 
   render() {
+    console.log(cards)
       return (
         <Wrapper>
           <Nav
-            title='Final Fantasy Character Click game'
+            title={'Final Fantasy Character Click game'}
             score= {this.state.currentScore}
             topScore= {this.state.topScore}
             rightWrong= {this.state.rightWrong}
@@ -88,15 +89,14 @@ class App extends Component {
           
           <Container>
             <Row>
-              {this.state.cards.map(cards => (
-                <Column size= "md-3 sm-6">
+              {this.state.cards.map((card, i) => (
+                <Column size= "md-3 sm-6" key= {i}>
                   <MemoryCard
-                    key= {cards.id}
-                    handleClick= {this.handleClick}
-                    handleIncrement= {this.handleIncrement}
-                    handleReset= {this.handleReset}
-                    id= {cards.id}
-                    image= {cards.image}
+                    handleClick={this.handleClick}
+                    handleIncrement={this.handleIncrement}
+                    handleReset={this.handleReset}
+                    id={card.id}
+                    image={card.image}
                   />
                 </Column>
               ))}
