@@ -16,6 +16,7 @@ var ShuffleCards = array => {
     let j = Math.floor(Math.random() * (i + 1));
     [array[i], array[j]] = [array[j], array[i]];
   }
+  return 5
 };
 
 // ShuffleCards();
@@ -37,7 +38,8 @@ class App extends Component {
     if (this.state.clicked.indexOf(id) === -1){
       this.handleIncrement();
       this.setState({ clicked: this.state.clicked.concat(id) });
-    }else{
+    }
+    else{
       this.handleReset();
     }
   }
@@ -69,12 +71,13 @@ class App extends Component {
 
   handleShuffle = () => {
       let shuffleCards = ShuffleCards(cards);
-      this.setState({ cards: shuffleCards});
+      console.log(shuffleCards)
+      // this.setState({ cards: shuffleCards});
     };
 
   render() {
-    console.log(cards)
-      return (
+
+    return (
         <Wrapper>
           <Nav
             title={'Final Fantasy Character Click game'}
@@ -86,7 +89,7 @@ class App extends Component {
           <Title>
             Attempt to click on each of the different characters without clicking the same one twice.
           </Title>
-          
+          { this.state.rightWrong === "You Lose" && <h1 id="lose">YOU LOSE</h1>}
           <Container>
             <Row>
               {this.state.cards.map((card, i) => (
